@@ -2,4 +2,4 @@
 - 博客
     - [zkdex介绍](/blog/zkdex-intro.md)
 - 人才招聘
-    - [Layer2]](/layer2-recruit.md)
+    - [Layer2](/join-us.md)

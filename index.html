@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Huobi ECO Chain</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Huobi ECO Chain">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://swap.hbfile.net/heco-chain-docs/css/vue.css">
+</head>
+<body>
+<div id="app"></div>
+<script>
+    window.$docsify = {
+        loadSidebar: true,
+        subMaxLevel: 2,
+        homepage: 'intro.md',
+        loadSidebar: 'sidebar.md',
+        loadNavbar: 'navbar.md',
+        name: 'Stars-Labs',
+        auto2top: true,
+        markdown: {
+            gfm: true,
+            tables: true,
+        },
+        themeColor: '#47b1de',
+        pagination: {
+            previousText: '上一章节',
+            nextText: '下一章节',
+        },
+        tabs: {
+            persist    : true,      // default
+            sync       : true,      // default
+            theme      : 'classic', // default
+            tabComments: true,      // default
+            tabHeadings: true       // default
+        },
+        remoteMarkdown: {
+            tag: 'remoteMarkdownUrl',
+        }
+    }
+</script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/docsify.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/search.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/docsify-pagination.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-bash.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-json.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-javascript.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-typescript.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-rust.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-c.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-graphql.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-makefile.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/prism-diff.min.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/docsify-tabs@1.js"></script>
+<script src="https://swap.hbfile.net/heco-chain-docs/js/docsify-plugin-flexible-alerts.min.js"></script>
+<script>
+    var source = document.documentElement.clientWidth > 768 ? 1 : 4;
+    window.woodpecker = window.woodpecker || {
+        app: 38,
+        source: source,
+        env: 'prd',
+        modules: {
+            vhash: {
+                type: 'woodpecker'
+            }
+        }
+    };
+    (function() {
+        var bw = document.createElement('script');
+        bw.src = 'https://open.woodpeckerlog.com/static/woodpecker.js';
+        bw.async = true;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(bw, s);
+    })();
+</script>
+</body>
+</html>

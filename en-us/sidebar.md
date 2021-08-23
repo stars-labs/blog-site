@@ -1,3 +1,5 @@
-- [About](en-us/intro.md)
+- [About Stars-Labs](en-us/intro.md)
 - Blogs
     - [zkdex-intro](en-us/blog/zkdex-intro.md)
+- JoinUs
+    - [join-us](en-us/join-us.md)
