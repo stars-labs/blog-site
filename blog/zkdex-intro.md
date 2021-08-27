@@ -1,4 +1,4 @@
-# zkdex：基于 zk-rollup 的中心化兑换协议
+# zkdex：基于 zk-rollup 的去中心化兑换协议
 
 ## zkdex 简介
 
