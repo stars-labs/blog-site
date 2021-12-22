@@ -1,5 +1,4 @@
 - [关于星辰实验室](/intro.md)
 - 博客
-    - [zkdex介绍](/blog/zkdex-intro.md)
 - 人才招聘
     - [加入我们](/join-us.md)
